@@ -1,6 +1,16 @@
-# Welcome to your CDK Java project!
+# Welcome to CDK EKS Java project!
 
-This is a blank project for CDK development with Java.
+Steps Before you run this Project
+1. Make Sure you have AWS account . https://aws.amazon.com/free/
+2. Install Node.js on your system.https://nodejs.org/en/download/package-manager
+3. Install and configure cdk
+   https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-java.html#work-with-cdk-java-install
+   https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#configuring_cdk
+   https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#credentials
+4. Execute cdk synth
+5. Execute cdk deploy
+6. Remember to execute cdk destroy post your usage to reduce costs.
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -14,5 +24,7 @@ It is a [Maven](https://maven.apache.org/) based project, so you can open this p
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
+
+
 
 Enjoy!
